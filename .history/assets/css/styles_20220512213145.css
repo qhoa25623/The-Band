@@ -160,8 +160,7 @@ html {
   position: relative;
   margin-top: 46.5px;
   padding-top: 50%;
-  background: url('../assets/img/slider/slider.jpg') top center / cover
-    no-repeat;
+  background: url('../assets/img/slider/slider.jpg') top center / cover no-repeat;
 }
 #slider .text-content {
   position: absolute;
@@ -418,7 +417,7 @@ html {
 
 @keyframes modalFadeIn {
   from {
-    opacity: 0;
+    opacity:0;
     transform: translateY(-150px);
   }
   to {
